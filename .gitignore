@@ -1,0 +1,5 @@
+/target/
+.idea/
+Mods/
+*.tmp
+*.iml
