@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
@@ -28,7 +28,8 @@
         <dependency>
             <groupId>org.nutdevs</groupId>
             <artifactId>ModularKit</artifactId>
-            <version>v1.4.9-nightly_1c135ba</version>
+            <!-- For the version, please go to mvn.nutdevs.org -->
+            <version>v1.4.9-nightly_a6952f7</version>
         </dependency>
     </dependencies>
 
