@@ -20,4 +20,4 @@ production use.
 
 - Just drop your project folder on your favourite IDE 😋
 
-### ➡ And enjoy it !
+# And enjoy it !
