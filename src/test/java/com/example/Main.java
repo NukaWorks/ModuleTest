@@ -8,7 +8,7 @@ import org.nutdevs.modularkit.core.ex.ModUuidEx;
 import java.io.File;
 
 /**
- * A simple test class for booting the TestModule external module installed on the given directory.
+ * A simple test class for boot the TestModule external module installed on the given directory.
  */
 public class Main {
 
