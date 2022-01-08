@@ -1,5 +1,6 @@
 /target/
 .idea/
-Mods/
+.vscode/
+mods/
 *.tmp
 *.iml
