@@ -9,16 +9,15 @@
     <version>1.0.0</version>
 
     <properties>
-        <maven.compiler.source>11</maven.compiler.source>
-        <maven.compiler.target>11</maven.compiler.target>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
     <repositories>
         <repository>
             <id>mvn-nutdevs</id>
-            <url>https://mvn.nutdevs.org/NutDevs-org/ModularKit/nightly-builds
-            </url>
+            <url>https://mvn.nutdevs.org/NutDevs-org/ModularKit/nightly-builds</url>
             <!-- Nightly_Builds <url>https://mvn.nutdevs.org/NutDevs-org/ModularKit/nightly-builds</url> -->
         </repository>
     </repositories>
@@ -28,7 +27,8 @@
             <groupId>org.nutdevs</groupId>
             <artifactId>ModularKit</artifactId>
             <!-- For the version, please go to mvn.nutdevs.org -->
-            <version>v1.4.10-nightly_b02d8c1</version>
+            <version>1.4.20-nightly_83d2cf8</version>
+            <scope>provided</scope>
         </dependency>
     </dependencies>
 
@@ -39,9 +39,8 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <configuration>
-                    <!-- Updated to Java-11 LTS but compatible to Java 1.8 -->
-                    <source>11</source>
-                    <target>11</target>
+                    <source>1.8</source>
+                    <target>1.8</target>
                 </configuration>
             </plugin>
 
