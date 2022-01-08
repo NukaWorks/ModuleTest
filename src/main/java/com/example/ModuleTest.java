@@ -15,7 +15,7 @@ public class ModuleTest extends ModularModule {
          /*
             - Found a good name
             - Go to https://uuidgenerator.net or run uuidgen on *nix systems and copy the first group of the uuid.
-            - And boom the prerequisites is complete !
+            - Enjoy !
          */
     }
 
