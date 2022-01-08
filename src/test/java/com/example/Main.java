@@ -12,9 +12,20 @@ import java.io.File;
  */
 public class Main {
 
-    public static void main(String[] args) throws ModUuidEx, ModRegisterEx, ModSourceEx {
-        ModularSource source = new ModularSource("98195aa7", new File("/path/to/dir"), ".jar");
+    public static void main(String[] args) {
+        ModularSource source;
+        try {
+            source = new ModularSource("98195aa7", new File("/path/to/dir"), ".jar");
+        } catch (ModUuidEx | ModSourceEx e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
         // No need to register - external modules will be auto-registered
-        source.getModuleManager().runModule(source.getModuleManager().findModuleByUuiD("758ad8e8")); // Find and run the module
+        try {
+            source.getModuleManager().runModule(source.getModuleManager().findModuleByUuiD("758ad8e8"));
+        } catch (ModUuidEx | ModRegisterEx e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        } // Find and run the module
     }
 }
