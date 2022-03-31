@@ -18,6 +18,6 @@ production use.
 
 ### ➡ Installation
 
-- Just drop your project folder on your favourite IDE 😋
+- Just open your project folder on your favourite IDE 😋
 
 # And enjoy it !
